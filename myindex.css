@@ -1,0 +1,319 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: auto;
+    max-width:100%;
+    
+     
+}
+ /*start of navigation bar*/   
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*end of navigtion bar*/
+/*Start of home page*/
+.header{
+    width:100%;
+    height:400px;
+    background-image: url(./Images/bk.jpg);
+    
+}
+
+.header img{
+    width: 200px;
+    height:200px;
+    margin-left: 42%;
+    margin-right: 50%;
+    border-radius: 50%;
+    
+}
+@media screen and (max-width:800px){
+    .header img{
+        margin-left: 35%;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .header img{
+        margin-left: 27%;
+        
+    }
+}
+
+
+.header h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+header h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.flexparent{ 
+    max-width:1400px;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.title{
+    width: 100%;
+}
+flexwrap div{
+    flex-basis: 100%;
+}
+
+/*end of homae pag*/
+/*start of about me*/
+.content{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    text-align: justify;
+    font-family: cursive;
+    margin:5% 5% 5% 5%;    
+}
+.text{
+    margin-right: 10%;
+    line-height: 200%;
+}
+.image{
+    margin-bottom: 10px;
+    border: 5px;
+    border-style: double;
+    border-color:#fff;
+    flex: 1;
+    max-width:100%;
+    height:auto;
+    text-align: center;
+    margin: auto;
+}
+
+
+.title{
+    text-align: center;
+    color:#000;
+    margin-top: 5%;
+    font-size: 23px;
+    font-family: fantasy;
+    
+}
+.aboutme{
+    text-align: center;
+    font-family: fantasy;
+    margin-right: 10%;
+}
+
+
+.portfolo h2{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 5%;
+    
+}
+.contimages{
+    margin: auto;
+    max-width: 100%;
+    
+    height: auto;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: center;
+
+    
+}
+.images1{
+    
+    flex-basis: 35%;
+    margin-left: 5%;
+    
+}
+
+@media (min-width:900px){
+    .contimages{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.images2{
+    flex:1;
+    max-width: 50%;
+    margin-left: 10%;
+    
+}
+
+.images3{
+
+    flex:1;
+    max-width: 50%;
+    height: auto;
+    margin-left: 10%;
+}
+.images1:hover{
+    border: 1px solid #fff;
+}
+.images2:hover{
+    border: 1px solid #fff;
+}.images3:hover{
+    border: 1px solid #fff;
+}
+.img1data{
+    flex: 1;
+    font-family: cursive;
+    font-size:18px;
+    font-style: normal;
+    
+    
+}
+.france{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: fantasy;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    opacity: 0.7;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 45%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*end of about me page*/
+/*start of contact page*/
+.contact h1{
+    
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.form{
+    margin-top: 5%;
+    width: 100%;
+    height: 99%;
+    text-align: center;
+    
+}
+.form input{
+    width: 40%;
+    height: 15%;
+}
+.form textarea{
+    width:40%;
+    height:30%;
+}
+
+.fa {
+    margin-top: 5%;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 22%;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 22%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-left: 22%;
+}
+
+    /*end of contact page*/
+
