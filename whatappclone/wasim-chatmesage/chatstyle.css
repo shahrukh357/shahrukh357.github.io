@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+	height: 100%;
+    display:block;
+	box-sizing: border-box;
+	overflow: hidden;
+    margin-top: 0px;
+	position: relative;
+  
+
+
+
+    
+}
+.message-main-receiver {
+  /*padding: 10px 20px;*/
+  max-width: 60%;
+}
+.sender {
+  width: 20%;
+  padding: 4px 10px 7px !important;
+  border-radius: 10px 10px 10px 0;
+  background: #ffffff;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  word-wrap: break-word;
+  display: inline-block;
+  margin-left: 55%;
+      
+}
+
+.receiver {
+  width: 20%;
+  padding: 4px 10px 7px !important;
+  border-radius: 10px 10px 10px 0;
+  background: #ffffff;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  word-wrap: break-word;
+  display: inline-block;
+  margin-top: 3%;    
+      
+}
+.receiver img{
+    border-radius:50%;
+    width: 20%;
+    height: 20%;
+}
+
+.sender img{
+    border-radius:50%;
+    width: 20%;
+    height: 20%;
+    margin-left: 8%;
+}
+
+    
+    
+}
+
+.top{
+    width: 50%;
+    height: 4%;
+    
+    overflow: hidden;
+    
+}
+.top p{
+    color:  #075e54;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+
+    
+
+.icons{
+    width: 12%;
+    height: 6%;
+    overflow: hidden;
+    padding-left: 7%;
+    
+
+}
+.container-fluid {
+    background-image: url(chats/whatsapp_background_image.png);
+    display:block;
+    box-sizing: border-box;
+    border-top: solid 10px #054d44;
+    border-right: solid 10px #054d44;
+    border-bottom: solid 10px #054d44;
+    border-left: solid 10px #054d44;
+    height: 1000px
+}
