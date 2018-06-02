@@ -1,0 +1,101 @@
+.doc{
+    background: #f1f1f1;
+    margin: auto;
+    width: 50%;
+}
+#accordion {
+    border: 5px solid lightcoral;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    margin-top: 0em;
+    
+}
+section{
+    background-color: azure;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+section a {
+    
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    padding-left: 2%;
+}
+section p{
+    font-family:sans-serif;
+    text-align: justify;
+    overflow: hidden;
+    
+}
+/*#item1:target p{
+    display: block;
+}*/
+
+#item1 {
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+    
+}
+
+#item1 h1{
+}
+/*#item2:target p{
+    display: block;
+}*/
+
+#item2 {
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-weight: 600;
+    
+}
+/*#item2  p {
+    display: none;
+    
+}*/
+#item2 h1{
+}
+/*#item3:target p{
+    display: block;
+}*/
+
+#item3 {  
+    width: 100%;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+}
+
+#item3 h1{
+    
+}
+/*#item4:target p{
+    display: block;
+}*/
+
+#item4 {   
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+#item4 h1{
+    
+}
