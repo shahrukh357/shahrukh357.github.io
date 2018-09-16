@@ -1,0 +1,20 @@
+.card-data{
+    text-align:center;
+    margin-bottom:13%;
+}
+
+.bookCard{
+    background-image: linear-gradient(red,white);
+    margin-top:7%;
+    box-shadow: 0px 3px 20px 2px white
+}
+.characterCard{
+    background-image: linear-gradient(blue,white);
+    margin-top:7%;
+    box-shadow: 0px 3px 20px 2px white
+}
+.houseCard{
+    background-image: linear-gradient(green,white);
+    margin-top:7%;
+    box-shadow: 0px 3px 20px 2px white
+}
